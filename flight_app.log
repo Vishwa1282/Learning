@@ -1,0 +1,13 @@
+2025-09-14 22:26:47,680 [INFO] BEGIN (implicit)
+2025-09-14 22:26:47,680 [INFO] PRAGMA main.table_info("flights")
+2025-09-14 22:26:47,681 [INFO] [raw sql] ()
+2025-09-14 22:26:47,681 [INFO] COMMIT
+2025-09-14 22:27:29,693 [INFO] BEGIN (implicit)
+2025-09-14 22:27:29,709 [INFO] INSERT INTO flights (id, airline, destination, price, available) VALUES (?, ?, ?, ?, ?)
+2025-09-14 22:27:29,710 [INFO] [generated in 0.01207s] (1209, 'AirIndia', 'Denmark', 200000.0, 1)
+2025-09-14 22:27:29,715 [INFO] COMMIT
+2025-09-14 22:27:29,727 [INFO] Flight created: {'id': 1209, 'airline': 'AirIndia', 'destination': 'Denmark', 'price': 200000.0, 'available': True}
+2025-09-14 22:27:32,735 [INFO] BEGIN (implicit)
+2025-09-14 22:27:32,738 [INFO] SELECT flights.id AS flights_id, flights.airline AS flights_airline, flights.destination AS flights_destination, flights.price AS flights_price, flights.available AS flights_available 
+FROM flights
+2025-09-14 22:27:32,739 [INFO] [generated in 0.00081s] ()

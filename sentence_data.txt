@@ -1,0 +1,2 @@
+List: ['dexter', 'is', 'the', 'bay', 'harbour', 'butcher']
+Tuple: ('DEXTER', 'IS', 'THE', 'BAY', 'HARBOUR', 'BUTCHER')

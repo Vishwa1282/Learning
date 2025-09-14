@@ -1,0 +1,39 @@
+2025-09-14 22:36:25,527 [INFO] BEGIN (implicit)
+2025-09-14 22:36:25,531 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-14 22:36:25,532 [INFO] [generated in 0.00107s] (100, 'Henry', 32, 34000.0, 1)
+2025-09-14 22:36:25,546 [INFO] COMMIT
+2025-09-14 22:36:25,558 [INFO] employee created.
+2025-09-14 22:37:23,349 [INFO] BEGIN (implicit)
+2025-09-14 22:37:23,353 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-14 22:37:23,363 [INFO] [generated in 0.01056s] ()
+2025-09-14 22:37:23,366 [INFO] read all employees.
+2025-09-14 22:37:40,494 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-14 22:37:40,495 [INFO] [generated in 0.00100s] (101, 'doakes', 33, 23456.0, 1)
+2025-09-14 22:37:40,508 [INFO] COMMIT
+2025-09-14 22:37:40,519 [INFO] employee created.
+2025-09-14 22:37:42,570 [INFO] BEGIN (implicit)
+2025-09-14 22:37:42,571 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-14 22:37:42,572 [INFO] [cached since 19.22s ago] ()
+2025-09-14 22:37:42,574 [INFO] read all employees.
+2025-09-14 22:50:27,774 [INFO] BEGIN (implicit)
+2025-09-14 22:50:27,777 [INFO] INSERT INTO employees (id, name, age, salary, is_active) VALUES (?, ?, ?, ?, ?)
+2025-09-14 22:50:27,778 [INFO] [generated in 0.00097s] (911, 'Logan', 43, 34566.0, 1)
+2025-09-14 22:50:27,793 [INFO] COMMIT
+2025-09-14 22:50:27,806 [INFO] Employee Created Successfully
+2025-09-14 22:50:45,624 [INFO] BEGIN (implicit)
+2025-09-14 22:50:45,628 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-14 22:50:45,629 [INFO] [generated in 0.00103s] ()
+2025-09-14 22:50:45,631 [INFO] read all employees.
+2025-09-14 22:51:15,723 [INFO] BEGIN (implicit)
+2025-09-14 22:51:15,726 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-14 22:51:15,727 [INFO] [generated in 0.00079s] ()
+2025-09-14 22:51:15,729 [INFO] Read All Employee
+2025-09-14 22:51:52,335 [INFO] BEGIN (implicit)
+2025-09-14 22:51:52,339 [INFO] SELECT employees.id AS employees_id, employees.name AS employees_name, employees.age AS employees_age, employees.salary AS employees_salary, employees.is_active AS employees_is_active 
+FROM employees
+2025-09-14 22:51:52,340 [INFO] [generated in 0.00094s] ()
+2025-09-14 22:51:52,342 [INFO] Read All Employee
