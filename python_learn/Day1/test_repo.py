@@ -20,7 +20,7 @@ print('After add:', repo.read_all_employee())
 
 # test read by id
 employee = repo.read_by_id(103)
-if employee == None:
+if employee is None:
     print('Employee not found')
 else:
     print(employee)
