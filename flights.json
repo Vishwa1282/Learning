@@ -1,0 +1,11 @@
+[
+    {
+        "id": 102,
+        "number": "10023",
+        "airline_name": "airindia",
+        "seats": 100,
+        "price": 4500.0,
+        "source": "hyd",
+        "destination": "delhi"
+    }
+]
